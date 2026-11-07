@@ -12,6 +12,8 @@ Accessible Design Co. is a curated website that emphasizes on accessibility and 
 
 <h1>Reflection Questions</h1>
 What accessibility challenges did you face, and how did you address them?
+
+
 -The accessibility challenges I faced were making sure the color for the text is different enough from the background color I chose and I had a challenge with figuring out how to use media queries. To combat these problems, I use the color contrast index provided and did further research on how to add media queries to my style sheet to accommodate for other devices.  
 -------------------
 How did you ensure that your design was responsive and accessible to all users?  
