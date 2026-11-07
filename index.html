@@ -4,4 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <header>
+        <h1>Accesible Design Co.</h1>
+        <img src="Ways-to-Make-Graphic-Design-More-Accessible.jpg" alt="Accessible Design Logo"/>
+        <nav class ="navigation" role="navigation" aria-label="Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <img src="download.webp" alt="Image of people working"/>
+                <h2>Accessible Design!</h2>
+                <a href="#services" class="button">Our Services</a>
+                <a href="#contact" class="button">Contact Us</a>
+            </div>
+        <section class="about" id="hero">
+            <h2>About Us!</h2>
+            <p>Our team at Accessible Design are catered towards creating websites with accessibility in mind.</p>
+        </section>
+
+        <section class="services" id="services">
+            <h2>Services Section</h2>
+            <img src="clear.webp" alt ="Image of Clear and Consise"></img>
+            <h3>Clear but Concise Websites</h3>
+            <p>We do our best towards creating creating webites that ANYONE can use!</p>
+            <img src="OIP.webp" alt="Picture of multiple devices.">
+            <h3>Responsive design</h3>
+            <p>Our websites work on ANY device!</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Us!</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" aria-describedby="Full Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" aria-describedby="Email Info">
+
+                <label for="subject">Subject</label>
+                <input type="subject" id="subject" name="subject" aria-describedby="Subject">
+
+                <label for="message">Message</label>
+                <input type="message" id="message" name="message" aria-describedby="Message">
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            </label>
+        </section>
+
+        <footer class = "footer">
+            <P>2026 Accessible Design Co.</P>
+            <a href="www.facebook.com">Visit our FaceBook!</a>
+            <a href="www.instagram.com">Visit our Instagram!</a>
+        </footer>
+
+    </main>
+</body>
+</html>
