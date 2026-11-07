@@ -1,0 +1,110 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 42, 42);
+    padding: 30px;
+    color: white;
+}
+
+body{
+    background-color: beige
+}
+
+.navigation ul{
+    background-color: rgb(71, 42, 42);
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+header img{
+    display: block;
+    margin: auto;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(71, 42, 42);
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.hero a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.about{
+    text-align: center;
+
+}
+
+.services{
+    background-color: #472a2a;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+}
+
+.services img {
+    width: 200px;
+    height: auto;
+    
+}
+
+.services div{
+
+    width: auto;
+}
+.services h2{
+    text-align: center;
+}
+
+.contact{
+    display: grid;
+    padding-bottom: 35px;
+    font-size:
+}
+
+footer{
+    background: #472a2a;
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+
+footer div{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
